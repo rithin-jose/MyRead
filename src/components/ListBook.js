@@ -22,7 +22,6 @@ class ListBook extends Component{
     updateShelf = (bookId,newShelf) =>{       
         BookAPI.update(bookId,newShelf)
         .then((book)=>{
-            console.log(book)
             this.getAllBooks()
         })
     }
@@ -43,6 +42,7 @@ class ListBook extends Component{
             })
             )
         })
+        
     }
     
 

@@ -16,7 +16,11 @@ class App extends Component{
             />
         )}>
           </Route>
-        <Route exact path="/search" component={SearchBook}>
+        <Route exact path="/search"  render={()=>(
+            <SearchBook
+              // books={this.state.books}
+            />
+        )}>
           </Route>
       </div>
     )
