@@ -1,6 +1,6 @@
 
 ## How to run this Program
-download the repository and run the command
+Download the repository and run the command
 
 		npm install
 which will install all the dependancies
